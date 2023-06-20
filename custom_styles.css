@@ -1,0 +1,48 @@
+.centered-header .tabulator-header-title
+{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+}
+.robot
+{
+        font-family: 'Poppins', sans-serif;
+}
+.tabulator .tabulator-header
+{
+        position: relative;
+        box-sizing: border-box;
+        width: 100%;
+        border-bottom: 2px solid #3FB449;
+        background-color: #222 !important;
+        color: #fff;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+}
+.tabulator .tabulator-header .tabulator-col {
+    display: inline-flex;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-right: 1px solid #aaa;
+    background: #20407a;
+    text-align: left;
+    vertical-align: bottom;
+    overflow: hidden;
+    font-size: 12px !important;
+}
+.tabulator .tabulator-footer .tabulator-page {
+    display: inline-block;
+    margin: 0 2px;
+    padding: 2px 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background: hsla(0,0%,100%,.2);
+    font-family: 'Poppins', sans-serif;
+}
